@@ -1,0 +1,14 @@
+# 利用requirements.txt文件，用pip可以轻松安装项目所有依赖：
+# pip install -r requirements.txt
+
+# 明确版本号，可重复性高
+django==1.10.3
+requests==2.9.1
+six==1.10.0
+PyMySQL==0.7.9
+
+# 如果项目在不同依赖版本中都通过测试，也可以指定指定相对的版本编号
+#falcon>=0.3.0,<0.5.0
+
+# 应尽量明确python包的版本，除非始终需要最新版
+#pytz
